@@ -1,0 +1,92 @@
+body {
+  font-size: 1em;
+  max-width: 40em;
+  display: block;
+  font-family: Georgia, serif;
+  margin: 4em 6% 20em;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    /* These styles will be applied to the selector when the viewport is below 1000px */
+    background: #FFF5EE;
+    max-width: 90%
+  }
+}
+
+h1 {
+  display: block;
+  max-width: 40em;
+  text-transform: capitalize;
+  font-size: 4em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    background-color: #008B8B;
+    font-style: #FFFFFF;
+  }
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+p {
+  max-width: 40em;
+}
+
+p.intro {
+  font-size: 2em;
+  font-style: italic;
+}
+
+div {
+  width: 40em;
+  height: 40em;
+}
+
+img.small {
+  width: 200px;
+  height: 200px;
+  float: right;
+  display: inline;
+  margin: 2em;
+}
+
+img.large {
+  width: 40em;
+  display: inline-block;
+}
+
+blockquote {
+  max-width: 37em;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 1em 1em;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+blockquote footer {
+  display: inline;
+}
+
+ul {
+  max-width: 35em;
+}
+
+
+
+
+
